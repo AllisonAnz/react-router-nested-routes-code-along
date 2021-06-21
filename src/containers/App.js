@@ -1,3 +1,8 @@
+// With React-Router, we can make the master-detail patter by making our Item component the child of the List comp.
+//App has some fake move data provided in the state for us, we would be likely be fetching this info 
+//App also has Router wrapping everything inside the JSX code. All JSX wrapped within Router can use Routs 
+//including the JSX from any child component 
+
 import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
